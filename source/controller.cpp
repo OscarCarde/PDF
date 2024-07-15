@@ -6,6 +6,7 @@
 #include "cids.h"
 
 
+
 using namespace Steinberg;
 
 namespace MyCompanyName {
@@ -26,6 +27,8 @@ tresult PLUGIN_API PDFController::initialize (FUnknown* context)
 
 	// Here you could register some parameters
 
+    parameters.addParameter(STR16("Height"), STR16("db"), 0, Vst::ParameterInfo::kCanAutomate, PDFParamIDs::kHeightID);
+    
 	return result;
 }
 

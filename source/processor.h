@@ -50,6 +50,8 @@ public:
 
 //------------------------------------------------------------------------
 protected:
+    
+    Steinberg::Vst::ParamValue mHeight;
 
 };
 

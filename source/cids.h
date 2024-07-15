@@ -16,3 +16,9 @@ static const Steinberg::FUID kPDFControllerUID (0xE561A2A9, 0x3A27562F, 0xA241C0
 
 //------------------------------------------------------------------------
 } // namespace MyCompanyName
+enum PDFParamIDs : Steinberg::Vst::ParamID {
+    kHeightID = 102,
+    kFrequencyID,
+    kBandwidthID,
+    kGainID,
+};
