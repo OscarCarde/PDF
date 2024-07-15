@@ -1,0 +1,6 @@
+/resource/
+/build/bin/
+/build/build/
+CMake*
+cmake*
+*.xcodeproj
