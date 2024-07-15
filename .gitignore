@@ -1,6 +1,3 @@
-/resource/
-/build/bin/
-/build/build/
-CMake*
-cmake*
-*.xcodeproj
+/build
+/resource
+/CMakeLists.txt
